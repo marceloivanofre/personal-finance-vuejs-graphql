@@ -1,0 +1,42 @@
+{
+  "name": "personal-finance-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceloivanofre/personal-finance-vuejs-graphql.git"
+  },
+  "keywords": [
+    "graphql",
+    "vue",
+    "node",
+    "postgres",
+    "prisma",
+    "docker",
+    "vuex"
+  ],
+  "author": "Marcelo Ivanofre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marceloivanofre/personal-finance-vuejs-graphql/issues"
+  },
+  "homepage": "https://github.com/marceloivanofre/personal-finance-vuejs-graphql#readme",
+  "dependencies": {
+    "prisma-client-lib": "1.28.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.19.1"
+  }
+}
