@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "npx nodemon --delay 1000ms --ext js,graphql src/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,10 @@
   },
   "homepage": "https://github.com/marceloivanofre/personal-finance-vuejs-graphql#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "graphql-yoga": "1.17.4",
+    "jsonwebtoken": "^8.5.1",
+    "prisma-binding": "2.3.16",
     "prisma-client-lib": "1.28.3"
   },
   "devDependencies": {
