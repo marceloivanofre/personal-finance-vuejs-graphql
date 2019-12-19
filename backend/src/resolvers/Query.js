@@ -1,8 +1,11 @@
+const { getUserId } = require('./../utils');
+
 const user = (_, args, ctx, info) => {
+  const userId = getUserId(ctx);
   return ctx.db.query.user(
     {
       where: {
-        id: args.id
+        id: userId
       }
     },
     info
